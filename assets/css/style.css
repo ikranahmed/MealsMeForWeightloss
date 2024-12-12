@@ -1,0 +1,29 @@
+Header {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+     background-color: var(--tertiary);
+    box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+    color: teal;
+}
+.hero-banner {
+    background: rgb(68, 88, 120);
+    background-image: url("https://as1.ftcdn.net/v2/jpg/01/03/61/90/1000_F_103619035_zWjSraPffFcxkzEEuLyoIeE3s4M24wwu.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    width: 500;
+    height: 300px;
+    
+    
+    
+  
+  /* //linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);  */
