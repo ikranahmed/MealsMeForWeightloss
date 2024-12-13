@@ -42,6 +42,8 @@
 
   </header>
 
+
+
   <div class="bg-light p-5 rounded-lg m-3">
     <h1 class="display-4">Welcome!</h1>
     <p class="lead">Meal Me is here to make your weight loss journey simple, enjoyable, and successful. Whether you're
@@ -51,7 +53,59 @@
     <a class="btn btn-primary btn-lg" href="#" role="button">Start Here!</a>
   </div>
 
-
+<!-- Modal -->
+<div class="modal fade" id="starthereModal" tabindex="-1" aria-labelledby="starthereModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="starthereModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+              <label for="starthereInputEmail1">First Name</label>
+              <input type="email" class="form-control" id="starthereInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">
+              
+          </div>
+          <div class="form-group">
+              <label for="startherenputEmail1">Last Name</label>
+              <input type="email" class="form-control" id="starthereInputEmail1" aria-describedby="emailHelp" placeholder="Enter Last Name">
+              
+          </div>
+          <div class="form-group">
+            <label for="starthereInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="starthereInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="starthereInputEmail1">Current Weight</label>
+            <input type="number" class="form-control" id="starthereInputEmail1" aria-describedby="emailHelp" placeholder="Enter lbs">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="starthereInputEmail1">Weight Goal</label>
+            <input type="number" class="form-control" id="starthereInputEmail1" aria-describedby="emailHelp" placeholder="Enter Weight Goal (lbs)">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="starthereInputPassword1">Password</label>
+            <input type="password" class="form-control" id="starthereInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="starthereCheck1">
+            <label class="form-check-label" for="starthereCheck1">Email me for weekly updates</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <h2 style="text-align: center;">Challenge's of The Week</h2>
   </h2>
