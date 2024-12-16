@@ -1,4 +1,4 @@
-Header {
+header {
     padding: 15px;
     display: flex;
     flex-direction: row;
@@ -14,7 +14,14 @@ Header {
     flex-direction: column;
   }
 
-
+.hero{
+    background-image:url(../images/jumbotron2.jpg) ;
+    background-position: center; 
+}
+.hero>div{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
 
 body { 
 margin: 0;
