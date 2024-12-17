@@ -1,11 +1,11 @@
 // Event listener for "Save Changes" button
 document.querySelector('#saveChanges').addEventListener('click', function () {
     // Get form data
-    const firstName = document.querySelector('#firstName').value;
-    const lastName = document.querySelector('#lastName').value;
-    const email = document.querySelector('#email').value;
-    const currentWeight = document.querySelector('#currentWeight').value;
-    const weightGoal = document.querySelector('#weightGoal').value;
+    const firstName = document.querySelector('#startherefirstName').value;
+    const lastName = document.querySelector('#startherelastName').value;
+    const email = document.querySelector('#starthereEmail').value;
+    const currentWeight = document.querySelector('#startherecurrentWeight').value;
+    const weightGoal = document.querySelector('#starthereweightGoal').value;
 
     // Validate inputs
     if (!firstName || !lastName || !email || !currentWeight || !weightGoal) {
