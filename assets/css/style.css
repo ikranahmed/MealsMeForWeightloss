@@ -14,9 +14,9 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: var(--primary);
-  /* background-color: #8EC5FC;
-  background-image: linear-gradient(202deg, #8EC5FC 0%, #f8ecff 33%, #ffffff 66%, #ffe9ce 100%);
-   */
+  background-color: #a9ebf9;
+  background-image: linear-gradient(0deg, #a9ebf9 0%, #e2e6ff 15%, #ffede3 45%, #ffffff 70%, #ffffff 75%);
+  
   line-height: 1.5;
   }
 
