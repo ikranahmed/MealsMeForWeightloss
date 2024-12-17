@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Removes the 'studentGrade' key from Local Storage
+    localStorage.removeItem('studentGrade');
+    // Retrieve user goals from Local Storage
     const userData = JSON.parse(localStorage.getItem('userGoals'));
 
     if (userData) {
@@ -12,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
         `;
     } else {
+        // Display a fallback message if no data is found
         document.querySelector('#goalsDisplay').innerHTML = `
             <div class="text-center mt-5">
                 <p>No goals set yet. Please go back and set your goals.</p>
