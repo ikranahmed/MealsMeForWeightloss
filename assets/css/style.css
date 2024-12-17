@@ -28,9 +28,14 @@ margin: 0;
 padding: 0;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color: var(--primary);
-background-color: var(--light);
+background-color: #8EC5FC;
+background-image: linear-gradient(202deg, #8EC5FC 0%, #f8ecff 33%, #ffffff 66%, #ffe9ce 100%);
+
 line-height: 1.5;
 }
+    
+
+
 /* .hero-banner {
     background: rgb(68, 88, 120);
     background-image: url("https://as1.ftcdn.net/v2/jpg/01/03/61/90/1000_F_103619035_zWjSraPffFcxkzEEuLyoIeE3s4M24wwu.jpg");
