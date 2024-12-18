@@ -9,13 +9,13 @@ Meal Me for Weightloss was created to give optional meal replacements or substit
 - What did you learn? I've learned to different techniques from bootstrap to style my CSS.
 
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table Of Contents
 
 - [Home Page](#installation)
 - [Tools](#usage)
 - [Goals](#usage)
 
-## Technologiess
+## Technologies
 - Bootstrap
 - HTML 
 - CSS
