@@ -25,6 +25,7 @@ Meal Me for Weightloss was created to give optional meal replacements or substit
  ![alt text](assets/images/screenshot1.png)
 ![alt text](assets/images/screenshot2.png)
 ![alt text](assets/images/screenshot3.png)
+![alt text](./assets/images/DeployedLink.png)
 
 ## Credits
 
@@ -35,7 +36,7 @@ If you used any third-party assets that require attribution, list the creators w
 
 ## Live Link
  place deployed link here
- [view deployed site](url)
+ [Meal Me For Weightloss](https://ikranahmed.github.io/MealsMeForWeightloss/)
 
 ## Features
 
